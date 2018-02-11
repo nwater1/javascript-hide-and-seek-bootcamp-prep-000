@@ -15,11 +15,11 @@ function increaseRankBy(n) {
   var list2 = lists[1].children
   
   for(var i = 0; i < list1.length; i++) {
-    list1[i].innerHTML = parseInt(i + 1 + n)
+    list1[i].innerHTML = (i + 1 + n)
   }
   
   for(var i = 0; i < list2.length; i++) {
-    list2[i].innerHTML = parseInt(12 -i + n)
+    list2[i].innerHTML = (12 -i + n)
   }
   
 }
