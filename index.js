@@ -14,11 +14,11 @@ function increaseRankBy(n) {
   var list2 = lists.children[1]
   
   for(var i = 0; i < list1.length; i++) {
-    list1[i].innerHTML = (i + 1 + n).toString()
+    parseInt(list1[i]).innerHTML = (i + 1 + n)
   }
   
   for(var i = 0; i < list2.length; i++) {
-    list2[i].innerHTML = (12 -i + n).toString()
+    parseInt(list2[i]).innerHTML = (12 -i + n)
   }
   
 }
