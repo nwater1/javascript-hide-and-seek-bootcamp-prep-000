@@ -14,7 +14,7 @@ function increaseRankBy(n) {
   var list2 = list.children[1]
   
   for(var i = 0; i < list1.length; i++) {
-    
+    list1[i].innerHTML = (i + 1 + n)
   }
 }
 
